@@ -1,0 +1,49 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-img {
+  width: 100px;
+  height: 100px;
+}
+
+.about-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #6d396b;
+  font-size: 20px;
+}
+
+@media (min-width: 576px) {
+  .about-heading {
+    font-size: 48px;
+  }
+}
+
+.about-paragraph {
+  font-family: 'bree serif';
+  font-size: 20px;
+  text-align: center;
+  color: rgb(83, 45, 81);
+}
+.about-summary {
+  font-family: 'bree serif';
+  font-size: 15px;
+  text-align: center;
+  color: rgb(83, 45, 81);
+  font-weight: 600;
+}
+.about-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.span {
+  font-weight: 700;
+}
